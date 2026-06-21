@@ -12,7 +12,6 @@ Completed:
 ✔ B2 - Order Summary
 ✔ B3 - BOOKS Discount
 ✔ B4 - Unique Cities
-✔ B5 - OrderId -> TotalAmount Map
 
 -------------------------------------------
 Console Output
