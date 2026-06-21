@@ -1,0 +1,51 @@
+===========================================
+Task C - Aggregation Operations
+Java Collections & Stream API Assignment
+Author : Sumit Vilas Awatade
+Date : 21-Jun-2026
+===========================================
+
+This file contains the console output of Task C.
+
+Completed:
+✔ C1 - Count SHIPPED Orders
+✔ C2 - Orders per Category
+✔ C3 - Total DELIVERED Revenue
+✔ C4 - Total ELECTRONICS Quantity Sold
+✔ C5 - Average Order Value of GOLD Customers
+
+-------------------------------------------
+Console Output
+-------------------------------------------
+
+========== Task C ==========
+
+========== C1 ==========
+Total SHIPPED Orders
+
+Total Shipped Orders : 2
+===============================================
+
+========== C2 ==========
+Orders Per Category
+
+{CLOTHING=2, BOOKS=2, GROCERY=2, ELECTRONICS=4}
+===============================================
+
+========== C3 ==========
+Total Revenue From DELIVERED Orders
+
+Total Revenue : 64800.0
+===============================================
+
+========== C4 ==========
+Total ELECTRONICS Quantity Sold
+
+Total Quantity Sold : 4
+===============================================
+
+========== C5 ==========
+Average Order Value Of GOLD Customers
+
+Average Order Value : 14120.0
+===============================================

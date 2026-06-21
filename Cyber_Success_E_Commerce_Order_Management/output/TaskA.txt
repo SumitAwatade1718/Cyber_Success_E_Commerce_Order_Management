@@ -1,0 +1,68 @@
+Welcome to ShopX E-Commerce Order Management System
+
+===========================================
+Task A - Filter Operations
+Java Collections & Stream API Assignment
+Author : Sumit Vilas Awatade
+Date : 21-Jun-2026
+===========================================
+
+This file contains the console output of Task A.
+
+Completed:
+✔ A1 - DELIVERED orders with totalAmount > 2000
+✔ A2 - Low stock ELECTRONICS products
+✔ A3 - GOLD customers with CANCELLED orders
+✔ A4 - Orders placed in the last 30 days
+✔ A5 - GROCERY orders with quantity > 3
+
+-------------------------------------------
+Console Output
+-------------------------------------------
+========== Task A ==========
+
+========== A1 ==========
+DELIVERED Orders with Total Amount > 2000
+
+Order [orderId=1, customer=Customer [customerId=1, name=Sumit Awatade, city=Pune, tier=GOLD], product=Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2], quantity=1, totalAmount=52000.0, status=DELIVERED, orderDate=2026-06-16]
+Order [orderId=4, customer=Customer [customerId=4, name=Shreyansh Ingole, city=Pandharpur, tier=GOLD], product=Product [productId=104, name=Rice Bag, category=GROCERY, price=900.0, stock=60], quantity=5, totalAmount=4500.0, status=DELIVERED, orderDate=2026-05-27]
+Order [orderId=8, customer=Customer [customerId=4, name=Shreyansh Ingole, city=Pandharpur, tier=GOLD], product=Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10], quantity=4, totalAmount=4800.0, status=DELIVERED, orderDate=2026-06-20]
+Order [orderId=10, customer=Customer [customerId=2, name=Rahul Awatade, city=Sangola, tier=SILVER], product=Product [productId=105, name=Rich Dad Poor Dad, category=BOOKS, price=700.0, stock=25], quantity=5, totalAmount=3500.0, status=DELIVERED, orderDate=2026-06-21]
+====================
+
+
+========== A2 ==========
+Low Stock ELECTRONICS Products
+
+Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2]
+Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5]
+===============================================
+
+
+========== A3 ==========
+GOLD Customers with CANCELLED Orders
+
+Customer [customerId=1, name=Sumit Awatade, city=Pune, tier=GOLD]
+===============================================
+
+
+========== A4 ==========
+Orders Placed in Last 30 Days
+
+Order [orderId=1, customer=Customer [customerId=1, name=Sumit Awatade, city=Pune, tier=GOLD], product=Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2], quantity=1, totalAmount=52000.0, status=DELIVERED, orderDate=2026-06-16]
+Order [orderId=2, customer=Customer [customerId=2, name=Rahul Awatade, city=Sangola, tier=SILVER], product=Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5], quantity=1, totalAmount=125000.0, status=PLACED, orderDate=2026-06-19]
+Order [orderId=3, customer=Customer [customerId=3, name=Priyansh Ingole, city=Pune, tier=BRONZE], product=Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10], quantity=2, totalAmount=2400.0, status=SHIPPED, orderDate=2026-06-06]
+Order [orderId=4, customer=Customer [customerId=4, name=Shreyansh Ingole, city=Pandharpur, tier=GOLD], product=Product [productId=104, name=Rice Bag, category=GROCERY, price=900.0, stock=60], quantity=5, totalAmount=4500.0, status=DELIVERED, orderDate=2026-05-27]
+Order [orderId=6, customer=Customer [customerId=2, name=Rahul Awatade, city=Sangola, tier=SILVER], product=Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5], quantity=1, totalAmount=125000.0, status=CANCELLED, orderDate=2026-06-11]
+Order [orderId=7, customer=Customer [customerId=3, name=Priyansh Ingole, city=Pune, tier=BRONZE], product=Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2], quantity=1, totalAmount=52000.0, status=SHIPPED, orderDate=2026-06-21]
+Order [orderId=8, customer=Customer [customerId=4, name=Shreyansh Ingole, city=Pandharpur, tier=GOLD], product=Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10], quantity=4, totalAmount=4800.0, status=DELIVERED, orderDate=2026-06-20]
+Order [orderId=10, customer=Customer [customerId=2, name=Rahul Awatade, city=Sangola, tier=SILVER], product=Product [productId=105, name=Rich Dad Poor Dad, category=BOOKS, price=700.0, stock=25], quantity=5, totalAmount=3500.0, status=DELIVERED, orderDate=2026-06-21]
+===============================================
+
+
+========== A5 ==========
+GROCERY Orders with Quantity > 3
+
+Order [orderId=4, customer=Customer [customerId=4, name=Shreyansh Ingole, city=Pandharpur, tier=GOLD], product=Product [productId=104, name=Rice Bag, category=GROCERY, price=900.0, stock=60], quantity=5, totalAmount=4500.0, status=DELIVERED, orderDate=2026-05-27]
+Order [orderId=9, customer=Customer [customerId=1, name=Sumit Awatade, city=Pune, tier=GOLD], product=Product [productId=104, name=Rice Bag, category=GROCERY, price=900.0, stock=60], quantity=8, totalAmount=7200.0, status=CANCELLED, orderDate=2026-05-12]
+===============================================

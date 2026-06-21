@@ -1,0 +1,69 @@
+===========================================
+Task B - Map Operations
+Java Collections & Stream API Assignment
+Author : Sumit Vilas Awatade
+Date : 21-Jun-2026
+===========================================
+
+This file contains the console output of Task B.
+
+Completed:
+✔ B1 - Product Names
+✔ B2 - Order Summary
+✔ B3 - BOOKS Discount
+✔ B4 - Unique Cities
+✔ B5 - OrderId -> TotalAmount Map
+
+-------------------------------------------
+Console Output
+-------------------------------------------
+
+========== Task B ==========
+
+========== B1 ==========
+ All Products Names : 
+
+Laptop
+iPhone 17
+Hoodie
+Rice Bag
+Rich Dad Poor Dad
+iPhone 17
+Laptop
+Hoodie
+Rice Bag
+Rich Dad Poor Dad
+==========================================
+
+========== B2 ==========
+All Orders details : 
+
+OrderID#1 | Sumit Awatade | Rs.52000.0 | DELIVERED
+OrderID#2 | Rahul Awatade | Rs.125000.0 | PLACED
+OrderID#3 | Priyansh Ingole | Rs.1200.0 | SHIPPED
+OrderID#4 | Shreyansh Ingole | Rs.900.0 | DELIVERED
+OrderID#5 | Sumit Awatade | Rs.700.0 | PLACED
+OrderID#6 | Rahul Awatade | Rs.125000.0 | CANCELLED
+OrderID#7 | Priyansh Ingole | Rs.52000.0 | SHIPPED
+OrderID#8 | Shreyansh Ingole | Rs.1200.0 | DELIVERED
+OrderID#9 | Sumit Awatade | Rs.900.0 | CANCELLED
+OrderID#10 | Rahul Awatade | Rs.700.0 | DELIVERED
+==========================================
+
+========== B3 ==========
+After applying 10% discount  : 
+
+Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2]
+Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5]
+Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10]
+Product [productId=104, name=Rice Bag, category=GROCERY, price=900.0, stock=60]
+Product [productId=105, name=Rich Dad Poor Dad, category=BOOKS, price=630.0, stock=25]
+==========================================
+
+========== B4 ==========
+Uniue Cities  : 
+
+Pune
+Sangola
+Pandharpur
+==========================================

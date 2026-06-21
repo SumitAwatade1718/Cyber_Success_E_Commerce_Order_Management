@@ -1,0 +1,75 @@
+===========================================
+Task D - forEach Operations
+Java Collections & Stream API Assignment
+Author : Sumit Vilas Awatade
+Date : 21-Jun-2026
+===========================================
+
+This file contains the console output of Task D.
+
+Completed:
+✔ D1 - Print All Orders
+✔ D2 - Thank You Messages
+✔ D3 - Update Product Stock
+✔ D4 - Category-wise Product List
+✔ D5 - Top 3 Highest Value Orders
+
+-------------------------------------------
+Console Output
+-------------------------------------------
+
+======== Task D ==========
+
+========== D1 ==========
+OrderID  Customer             Product              Amount       Status      
+--------------------------------------------------------------------------
+1        Sumit Awatade        Laptop               52000.00     DELIVERED   
+2        Rahul Awatade        iPhone 17            125000.00    PLACED      
+3        Priyansh Ingole      Hoodie               2400.00      SHIPPED     
+4        Shreyansh Ingole     Rice Bag             4500.00      DELIVERED   
+5        Sumit Awatade        Rich Dad Poor Dad    2100.00      PLACED      
+6        Rahul Awatade        iPhone 17            125000.00    CANCELLED   
+7        Priyansh Ingole      Laptop               52000.00     SHIPPED     
+8        Shreyansh Ingole     Hoodie               4800.00      DELIVERED   
+9        Sumit Awatade        Rice Bag             7200.00      CANCELLED   
+10       Rahul Awatade        Rich Dad Poor Dad    3500.00      DELIVERED   
+==========================================================================
+
+========== D2 ==========
+Thank You, Sumit Awatade For Purching Laptop
+Thank You, Shreyansh Ingole For Purching Rice Bag
+Thank You, Shreyansh Ingole For Purching Hoodie
+Thank You, Rahul Awatade For Purching Rich Dad Poor Dad
+=======================================================
+
+========== D3 ==========
+Laptop            | Stock Before: 2     | Remaining Stock: 1    
+iPhone 17         | Stock Before: 5     | Remaining Stock: 4    
+Hoodie            | Stock Before: 10    | Remaining Stock: 8    
+Rice Bag          | Stock Before: 60    | Remaining Stock: 55   
+Rich Dad Poor Dad | Stock Before: 25    | Remaining Stock: 22   
+iPhone 17         | Stock Before: 5     | Remaining Stock: 4    
+Laptop            | Stock Before: 2     | Remaining Stock: 1    
+Hoodie            | Stock Before: 10    | Remaining Stock: 6    
+Rice Bag          | Stock Before: 60    | Remaining Stock: 52   
+Rich Dad Poor Dad | Stock Before: 25    | Remaining Stock: 20   
+=============================================================
+
+========== D4 ==========
+
+ELECTRONICS : 
+Laptop
+iPhone 17
+-------------------
+
+CLOTHING : 
+Hoodie
+-------------------
+
+GROCERY : 
+Rice Bag
+-------------------
+
+BOOKS : 
+Rich Dad Poor Dad
+-------------------
