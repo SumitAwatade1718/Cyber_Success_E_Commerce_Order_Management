@@ -35,6 +35,7 @@ public class Main {
 		 PrintService.thankYouMessage();
 		 PrintService.updateStock();
 		 PrintService.categoryWiseProducts();
+		 PrintService.topThreeOrders();
 		 
 	}
 
