@@ -33,7 +33,7 @@ public class Main {
 		 System.out.println("\n ======== Task D ==========");
 		 PrintService.printAllOrders();
 		 PrintService.thankYouMessage();
-		 PrintService.updateStock();
+		 PrintService.updateStock(); 
 		 PrintService.categoryWiseProducts();
 		 PrintService.topThreeOrders();
 		 
