@@ -37,6 +37,24 @@ public class Main {
 		 PrintService.categoryWiseProducts();
 		 PrintService.topThreeOrders();
 		 
+		 System.out.println("\n ========== Task E ==========");
+
+		 CollectionUtils.sortOrdersByAmount();
+		 CollectionUtils.sortProductsByNameAndPrice();
+		 CollectionUtils.uniqueCustomers();
+		 CollectionUtils.ordersByStatus();
+		 CollectionUtils.processOrders();
+		 
+	     System.out.println("\n========== Inventory Service ==========");
+	     InventoryService.inventoryAlert();
+	     
+	     System.out.println("\n========== Dashboard==========");
+	     SalesDashboard.generateReport(DataStore.o_list);
+
+	     System.out.println("\n==================================================");
+	     System.out.println("      Project Execution Completed Successfully");
+	     System.out.println("==================================================");
+		 
 	}
 
 }

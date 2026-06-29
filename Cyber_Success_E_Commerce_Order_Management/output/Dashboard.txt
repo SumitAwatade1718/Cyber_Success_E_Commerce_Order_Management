@@ -1,0 +1,40 @@
+========== Dashboard==========
+
+========== Sales Report 1 ==========
+Total Revenue from DELIVERED Orders
+
+Total Revenue : 64800.0
+
+========== Sales Report 2 ==========
+Category Wise Revenue
+
+CLOTHING : 4800.0
+BOOKS : 3500.0
+GROCERY : 4500.0
+ELECTRONICS : 52000.0
+
+========== Sales Report 3 ==========
+Top 3 Selling Products
+
+Rice Bag=13
+Rich Dad Poor Dad=8
+Hoodie=6
+
+========== Sales Report 4 ==========
+Top 2 Customers By Spend
+
+Rahul Awatade=253500.0
+Sumit Awatade=61300.0
+
+========== Sales Report 5 ==========
+Cancelled Orders
+
+Rahul Awatade | Loss Amount : 125000.0
+Sumit Awatade | Loss Amount : 7200.0
+
+========== Sales Report 6 ==========
+City Wise Order Count
+
+Sangola : 3
+Pune : 5
+Pandharpur : 2

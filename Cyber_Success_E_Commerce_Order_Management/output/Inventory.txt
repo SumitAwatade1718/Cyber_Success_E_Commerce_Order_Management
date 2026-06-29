@@ -1,0 +1,23 @@
+========== Inventory Service ==========
+
+========== Inventory Alert ==========
+
+CRITICAL PRODUCTS (Stock < 5)
+
+Laptop | Stock : 2 | CRITICAL
+
+LOW STOCK PRODUCTS (Stock 5 - 20)
+
+iPhone 17 | Stock : 5 | LOW
+Hoodie | Stock : 10 | LOW
+
+========== Inventory Map ==========
+
+LOW
+Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5]
+Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10]
+
+CRITICAL
+Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2]
+
+===============================================

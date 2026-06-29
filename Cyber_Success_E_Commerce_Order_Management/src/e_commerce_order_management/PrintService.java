@@ -33,7 +33,7 @@ public class PrintService {
                      .o_list
                      .stream()
                      .filter(o->o.getStatus().equals("DELIVERED"))
-                     .forEach(o->System.out.println("Thank You, "+o.getCustomer().getName()+" For Purching "+o.getProduct().getName())
+                     .forEach(o->System.out.println("Thank You, "+o.getCustomer().getName()+" For Purchasing  "+o.getProduct().getName())
                     	 
                      );
 			

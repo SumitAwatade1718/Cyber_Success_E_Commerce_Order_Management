@@ -1,0 +1,11 @@
+========== E5 ==========
+Processing First 3 Orders
+
+First Order
+Order [orderId=1, customer=Customer [customerId=1, name=Sumit Awatade, city=Pune, tier=GOLD], product=Product [productId=101, name=Laptop, category=ELECTRONICS, price=52000.0, stock=2], quantity=1, totalAmount=52000.0, status=DELIVERED, orderDate=2026-06-24]
+
+Second Order
+Order [orderId=2, customer=Customer [customerId=2, name=Rahul Awatade, city=Sangola, tier=SILVER], product=Product [productId=102, name=iPhone 17, category=ELECTRONICS, price=125000.0, stock=5], quantity=1, totalAmount=125000.0, status=PLACED, orderDate=2026-06-27]
+
+Third Order
+Order [orderId=3, customer=Customer [customerId=3, name=Priyansh Ingole, city=Pune, tier=BRONZE], product=Product [productId=103, name=Hoodie, category=CLOTHING, price=1200.0, stock=10], quantity=2, totalAmount=2400.0, status=SHIPPED, orderDate=2026-06-14]
