@@ -4,7 +4,7 @@
 
 This project is an implementation of the **Java Collections Framework** and **Java 8 Stream API** concepts using an **E-Commerce Order Management System**.
 
-The project demonstrates various Stream API operations like filtering, mapping, aggregation, sorting, grouping, and collection utilities without using any database.
+The project demonstrates various Stream API operations such as filtering, mapping, aggregation, sorting, grouping, collection utilities, sales reporting, and inventory management without using any database.
 
 ---
 
@@ -15,6 +15,9 @@ The project demonstrates various Stream API operations like filtering, mapping, 
 - ✅ Task B - map()
 - ✅ Task C - count(), sum(), average(), groupingBy()
 - ✅ Task D - forEach()
+- ✅ Task E - Collection Utilities
+- ✅ Sales Dashboard Report
+- ✅ Inventory Alert System
 
 ---
 
@@ -40,14 +43,32 @@ src/
 ├── MappingService.java
 ├── AggregationService.java
 ├── PrintService.java
+├── CollectionUtils.java
+├── SalesDashboard.java
+├── InventoryService.java
 └── Main.java
 
 output/
 ├── TaskA.txt
 ├── TaskB.txt
 ├── TaskC.txt
-└── TaskD.txt
+├── TaskD.txt
+├── TaskE.txt
+├── SalesDashboard.txt
+└── InventoryService.txt
 ```
+
+---
+
+## 📌 Features
+
+- ✔ Filter orders and products
+- ✔ Transform data using Stream API
+- ✔ Revenue and sales aggregation
+- ✔ Collection utilities using Comparator, TreeMap, LinkedHashSet and PriorityQueue
+- ✔ Sales Dashboard Report
+- ✔ Inventory Alert System
+- ✔ Console-based E-Commerce Order Management System
 
 ---
 
@@ -55,12 +76,15 @@ output/
 
 Console outputs are available in the **output** folder.
 
-```
+```text
 output/
 ├── TaskA.txt
 ├── TaskB.txt
 ├── TaskC.txt
-└── TaskD.txt
+├── TaskD.txt
+├── TaskE.txt
+├── SalesDashboard.txt
+└── InventoryService.txt
 ```
 
 ---
