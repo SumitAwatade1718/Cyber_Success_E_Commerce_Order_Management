@@ -97,7 +97,7 @@ public class CollectionUtils {
 
         pq.addAll(DataStore.o_list);
 
-        System.out.println("First Order");
+        System.out.println("\n First Order");
         System.out.println(pq.poll());
 
         System.out.println("\nSecond Order");
