@@ -95,4 +95,3 @@ output/
 
 B.Tech Computer Science & Engineering
 
-Java | DSA | Full Stack Development
